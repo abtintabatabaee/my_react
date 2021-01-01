@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'react-toastify/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import Home from './pages/Home';
+import ShopByBrand from './pages/ShopByBrand';
+import BrandProducts from './pages/BrandProducts';
+import ShoppingCart from './pages/ShoppingCart';
+import ProductDetail from './pages/ProductDetail';
+import Store from './pages/Store';
+import CreateAccount from './pages/CreateAccount';
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+<BrowserRouter>
+<ToastContainer/>
+    <Routes>
+        <Route>
+        <Route path='/' element={<Home/>} />
+        <Route path='/ShopByBrand' element={<ShopByBrand/>} />
+        <Route path='/Home/BrandProducts/:name/:id' element={<BrandProducts/>} />
+        <Route path='/ShoppingCart' element={<ShoppingCart/>} />
+        <Route path='/ProductDetail/:name/:ID' element={<ProductDetail/>} />
+        <Route path='/Store' element={<Store/>} />
+        <Route path='/CreateAccount' element={<CreateAccount/>} />
+       
+
+        </Route>
+
+    </Routes>
+
+
+</BrowserRouter>
+  )
+ 
 }
 
 export default App;
