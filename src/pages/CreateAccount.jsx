@@ -1,11 +1,10 @@
-import { useState } from "react"
+
 import { Layout } from "../components/Layout"
 
 const CreateAccount =()=>{
 
-   const [gender1,setGender1]=useState()
-   const [gender2,setGender2]=useState()
-    console.log({"this is gender 1" : gender1});
+  
+  
     
   
     return (
