@@ -7,7 +7,7 @@ node_modules/
 /src/node/final-backend-project/node_modules/node/bin/
 /.pnp
 .pnp.js
-
+*.mp4
 # testing
 /coverage
 
