@@ -3,7 +3,7 @@
 # dependencies
 node_modules/
 /src/node/final-backend-project/node_modules/
-.bin
+.bin/
 /.pnp
 .pnp.js
 
