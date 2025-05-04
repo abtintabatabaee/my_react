@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-src/node/final-backend-project/node_modules/
+/src/node/final-backend-project/node_modules/
 /.pnp
 .pnp.js
 
