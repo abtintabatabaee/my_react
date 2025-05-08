@@ -16,7 +16,7 @@ import CreateAccount from './pages/CreateAccount';
 
 function App() {
   return(
-<BrowserRouter>
+<BrowserRouter basename="/my_react">
 <ToastContainer/>
     <Routes>
         <Route>
