@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my_react/static/css/main.d14c3440.css",
+    "main.js": "/my_react/static/js/main.dba6fc7f.js",
+    "static/js/488.275c2ca8.chunk.js": "/my_react/static/js/488.275c2ca8.chunk.js",
+    "static/media/mut_slider_desktop.webp": "/my_react/static/media/mut_slider_desktop.977279d623a4e7b0333f.webp",
+    "static/media/woman.jpg": "/my_react/static/media/woman.d4fe2663e8ae0df5cb9e.jpg",
+    "static/media/bsn_slider_desktop.webp": "/my_react/static/media/bsn_slider_desktop.c442b53656013a6c219b.webp",
+    "static/media/bday_slider_desktop.webp": "/my_react/static/media/bday_slider_desktop.e352b7801884b8f71601.webp",
+    "static/media/goals_slider_desktop.webp": "/my_react/static/media/goals_slider_desktop.60484225ebfd7e42acea.webp",
+    "static/media/brettandmeganfooter.webp": "/my_react/static/media/brettandmeganfooter.4d05331bf953f1fc02b4.webp",
+    "static/media/cell_slider_desktop.webp": "/my_react/static/media/cell_slider_desktop.467c94832b09706bbeb8.webp",
+    "static/media/mypro_slider_desktop.webp": "/my_react/static/media/mypro_slider_desktop.ef8688c7bdb977699e4e.webp",
+    "index.html": "/my_react/index.html",
+    "main.d14c3440.css.map": "/my_react/static/css/main.d14c3440.css.map",
+    "main.dba6fc7f.js.map": "/my_react/static/js/main.dba6fc7f.js.map",
+    "488.275c2ca8.chunk.js.map": "/my_react/static/js/488.275c2ca8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d14c3440.css",
+    "static/js/main.dba6fc7f.js"
+  ]
+}
