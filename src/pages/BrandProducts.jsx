@@ -37,13 +37,13 @@ import { useEffect } from 'react';
 
             {checked?.items?.map(item=>
               <div className='sm:w-[25%] sm:p-3  bg-white sm:flex sm:flex-col sm:justify-evenly sm:items-center sm:gap-2 sm:flex-shrink-0 sm:flex-grow-0 sm:mt-5 w-[45%] mt-5 flex flex-wrap justify-start p-2'>
-                    <Link to={`/ProductDetail/${checked.brand}/${item.id}`} className='sm:w-full  sm:flex sm:justify-center sm:items-center sm:p-2  '><img className='bg-cover sm:w-[250px] w-[110px] sm:h-auto h-[100px] ' src={`http://localhost:5000${item?.thumbnail}`}  alt='item-pic'/></Link>
+                    <Link to={`/ProductDetail/${checked.brand}/${item.id}`} className='sm:w-full  sm:flex sm:justify-center sm:items-center sm:p-2 '><img className='bg-cover sm:w-[250px] w-[110px] sm:h-auto h-[100px] ' src={`http://localhost:5000${item?.thumbnail}`}  alt='item-pic'/></Link>
                     <div className='w-full sm:h-[30px] h-[20px] sm:p-1 bg-[#309c3a] text-xs text-white  flex justify-center items-center   font-thin mt-2 '> Deal if it is Exist </div>
                     <Link className='w-full font-thin text-sm p-2 flex justify-start items-center h-[100px]' ><p className='sm:w-full sm:flex sm:justify-start sm:items-center sm:text-start text-sm'>{item?.title}</p></Link>
                     <p className='text-[#2a5599] sfont-bold w-full flex justify-start items-center p-2'>${item?.price}</p>
                    <div className='sm:w-full sm:flex sm:justify-between sm:items-center'>
                    <button onClick={()=>addToCartHandler(item)}  className='bg-[#059] font-thin  text-sm drop-shadow-[1px_1px_0_#004a85] text-white sm:p-2 p-1  min-w-[120px] transition-all hover:bg-[#204379]'>Add to Cart</button>
-                   <button className='bg-[#f5f5f5] sm:font-thin sm:text-sm sm:p-2 sm:min-w-[120px] drop-shadow-[1px_1px_0_#f2f2f2] sm:hover:bg-[#f0f0f0] sm:block hidden'>View Product</button>
+                   <Link  to={`/ProductDetail/${checked.brand}/${item.id}`} className='bg-[#f5f5f5] sm:font-thin sm:text-sm sm:p-2 sm:min-w-[120px] drop-shadow-[1px_1px_0_#f2f2f2] sm:hover:bg-[#f0f0f0] sm:block hidden'>View Product</Link>
                    </div>
               </div>
             )
