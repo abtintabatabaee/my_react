@@ -39,6 +39,7 @@
 
 
   "private": true,
+<<<<<<< HEAD
 
  
 
@@ -48,6 +49,9 @@
 
 
 
+=======
+  "homepage": "https://abtintabatabaee.github.io/my_react",
+>>>>>>> b435d148833bfc1f5841bb152178e9af4d546b4a
   "dependencies": {
 
  
